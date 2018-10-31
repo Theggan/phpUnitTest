@@ -4,7 +4,7 @@ namespace Tests\AppBundle\Entity;
 
 use AppBundle\Entity\Product;
 
-class ProductTest extends \PHPUnit_Framework_TestCase
+class ProductTest extends PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider pricesForFoodProduct
