@@ -3,9 +3,10 @@
 namespace Tests\AppBundle\Security;
 
 use AppBundle\Entity\User;
+use PHPUnit\Framework\TestCase;
 use AppBundle\Security\GithubUserProvider;
 
-class GithubUserProviderTest extends \PHPUnit_Framework_TestCase
+class GithubUserProviderTest extends TestCase
 {
     private $client;
     private $serializer;
